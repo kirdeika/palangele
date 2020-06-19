@@ -2,6 +2,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: #dedede;
+    background: linear-gradient(#dedede, #bababa);
     margin: 0;
     font-family: 'Raleway', sans-serif;
 }
@@ -25,15 +26,20 @@ a {
     background-color: #fcfcfc;
 }
 
-header {
+header, footer {
     border-bottom: 5px solid black;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     background-image: url("../img/main.jpg");
+    background-position: top;
     background-size: cover;
     color: #fcfcfc;
     padding: 100px 15px;
+}
+
+footer {
+    justify-content: space-evenly;
 }
 
 section {
