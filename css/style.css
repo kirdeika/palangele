@@ -212,9 +212,13 @@ nav > ul > li > a:hover {
     .section_gallery_layout > ul > li {
         max-width: 45%;
     }
+
+    .section_container-main {
+        flex-direction: column;
+    }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 450px) {
     .section_gallery_layout > ul > li {
         max-width: 100%;
     }
