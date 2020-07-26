@@ -163,3 +163,45 @@ nav > ul > li > a:hover {
     width: 100%;
     justify-content: space-evenly;
 }
+
+@media only screen and (max-width: 750px) {
+    .main_container {
+        width: 95%;
+    }
+
+    header {
+        padding: 50px 7px;
+    }
+
+    nav > ul {
+        display: block;
+        padding: 0;
+    }
+
+    nav > ul > li {
+        display: block;
+        padding: 5px 0px;
+        border: none !important;
+    }
+
+    nav > ul > li > a {
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+    }
+
+    .header_main-left {
+        text-align: center;
+    }
+
+    .header_main-right-inline {
+        flex-direction: column;
+    }
+
+    .extra_sections-main {
+        flex-direction: column;
+    }
+
+    section {
+        margin: 15px 2%;
+        border-bottom: none;
+    }
+}
